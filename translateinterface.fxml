@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="300.0" prefWidth="300.0" spacing="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+       <StackPane prefHeight="50.0" prefWidth="200.0">
+            <children>
+               <Label fx:id="result">
+                  <font>
+                     <Font name="System Bold" size="18.0" />
+                  </font>
+               </Label>
+            </children>
+      </StackPane>
+       <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+           <children>
+               <Button mnemonicParsing="false" onAction="#processNumbers" prefWidth="50.0" text="7">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+               <Button mnemonicParsing="false" onAction="#processNumbers" prefWidth="50.0" text="8">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+               <Button mnemonicParsing="false" onAction="#processNumbers" prefWidth="50.0" text="9">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+               <Button mnemonicParsing="false" onAction="#processOperators" prefWidth="50.0" text="/">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+           </children>
+       </HBox>
+       <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+           <children>
+               <Button mnemonicParsing="false" onAction="#processNumbers" prefWidth="50.0" text="4">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+               <Button mnemonicParsing="false" onAction="#processNumbers" prefWidth="50.0" text="5">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+               <Button mnemonicParsing="false" onAction="#processNumbers" prefWidth="50.0" text="6">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+               <Button mnemonicParsing="false" onAction="#processOperators" prefWidth="50.0" text="*">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+           </children>
+       </HBox>
+       <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+           <children>
+               <Button mnemonicParsing="false" onAction="#processNumbers" prefWidth="50.0" text="1">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+               <Button mnemonicParsing="false" onAction="#processNumbers" prefWidth="50.0" text="2">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+               <Button mnemonicParsing="false" onAction="#processNumbers" prefWidth="50.0" text="3">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+               <Button mnemonicParsing="false" onAction="#processOperators" prefWidth="50.0" text="-">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+           </children>
+       </HBox>
+       <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+           <children>
+               <Button mnemonicParsing="false" onAction="#processNumbers" prefWidth="110.0" text="0">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+               <Button mnemonicParsing="false" onAction="#processOperators" prefWidth="50.0" text="=">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+               <Button mnemonicParsing="false" onAction="#processOperators" prefWidth="50.0" text="+">
+                   <font>
+                       <Font name="Arial" size="18.0" />
+                   </font>
+               </Button>
+           </children>
+       </HBox>
+   </children>
+
+</VBox>
