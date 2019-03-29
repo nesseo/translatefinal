@@ -9,7 +9,7 @@ public class DBConnector {
         try {
             Connection connection = DriverManager.getConnection("jdbc:sqlite:translate.db");
             return connection;
-        } catch (SQLException e) {
+        }catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
