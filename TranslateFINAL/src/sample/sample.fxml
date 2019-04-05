@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TableController">
+   <children>
+      <TableView fx:id="table" layoutX="31.0" layoutY="387.0" prefHeight="192.0" prefWidth="696.0">
+        <columns>
+          <TableColumn fx:id="col_eng" prefWidth="154.0" text="english" />
+          <TableColumn fx:id="col_oji" prefWidth="293.0" text="ojibwe" />
+            <TableColumn fx:id="col_moh" prefWidth="237.0" text="mohawk" />
+        </columns>
+      </TableView>
+      <TextField fx:id="filterField" layoutX="31.0" layoutY="260.0" prefHeight="53.0" prefWidth="491.0" promptText="enter English word" />
+      <Label layoutX="40.0" layoutY="212.0" prefHeight="35.0" prefWidth="274.0" text="Enter English Word:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+      <Label layoutX="31.0" layoutY="333.0" text="Result:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="14.0" prefHeight="53.0" prefWidth="371.0" text="Indigenous Language Translator" textAlignment="CENTER" textFill="#0af574">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="84.0" prefHeight="27.0" prefWidth="578.0" text="Welcome to the Indigenous Language Translator software program!   " />
+      <Label layoutX="40.0" layoutY="119.0" prefHeight="21.0" prefWidth="737.0" text="Enter an english word below, and if we find it in our database, the words will show in the results section,  " />
+      <Label layoutX="40.0" layoutY="140.0" prefHeight="21.0" prefWidth="689.0" text="along with a translation in Ojibwe and/or Mohawk Indigenous languages.  " />
+      <Line endX="450.0" layoutX="300.0" layoutY="191.0" startX="-275.0" stroke="#2dd76b" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="5.0" />
+   </children>
+</AnchorPane>
